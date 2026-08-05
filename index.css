@@ -1,0 +1,22 @@
+.inventory-table {
+    width: 380px;
+    border-radius: 5px;
+    padding: 15px;
+    border: center;
+    margin: 60px auto;
+    border-collapse: collapse;
+
+}
+th {
+width: 100%;
+border: 1px solid grey;
+padding: 10px;
+}
+th {
+background: lightblue;
+padding: 10px;
+}
+td {
+background:lightgrey;
+padding: 10px;
+}
