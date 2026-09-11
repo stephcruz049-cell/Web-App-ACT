@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef3f8;
+    color: #333;
+    padding: 40px 20px;
+}
+
+.report-card {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+    color: #1e5aa8;
+}
+
+h2 {
+    color: #1e5aa8;
+    border-bottom: 1px solid #1e5aa8;
+    padding-bottom: 5px;
+}
+
+/* Student Information */
+.student-info {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-info td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.label {
+    font-weight: bold;
+    background-color: #eaf2fb;
+}
+
+/* Grades */
+.grades {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grades th {
+    background-color: #1e5aa8;
+    color: white;
+    padding: 10px;
+}
+
+.grades td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.passed {
+    color: green;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    color: #555;
+	text-align: center;
+}
