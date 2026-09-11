@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="JobApplication.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Left: Application Form -->
+        <div class="form-section">
+            <h1>Job Application Form</h1>
+
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your full name"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="Enter your phone number"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="position">Position Applying For</label>
+                    <select id="position">
+                        <option>Web Developer</option>
+                        <option>UI/UX Designer</option>
+                        <option>Software Engineer</option>
+                        <option>Project Manager</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="experience">Work Experience</label>
+                    <textarea
+                        id="experience"
+                        placeholder="Describe your work experience"
+                    ></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="resume">Upload Resume</label>
+                    <input
+                        type="file"
+                        id="resume"
+                    >
+                </div>
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+
+        <!-- Right: Application Guidelines -->
+        <div class="guidelines-section">
+
+            <h2>Application Guidelines</h2>
+
+            <ul>
+                <li>Complete all required fields.</li>
+                <li>Use a valid email address.</li>
+                <li>Upload your latest resume.</li>
+                <li>Review your information<br> before submitting.</li>
+                <li>Only shortlisted applicants<br> will be contacted.</li>
+            </ul>
+
+            <h2 class="office-title">Office Hours</h2>
+
+            <p>Monday – Friday</p>
+            <p>8:00 AM – 5:00 PM</p>
+
+        </div>
+
+    </div>
+
+    <!-- Home Button -->
+    <div class="home-container">
+        <a href="Activities.html">
+            <button class="home-button">Home</button>
+        </a>
+    </div>
+
+</body>
+</html>
